@@ -37,7 +37,7 @@ exit if @changes.size > ENV["gs_max_changes"].to_i
 @c = {
   :rst => "\e[0m",
   :del => "\e[0;31m",
-  :mod => "\e[0;32m",
+  :mod => "\e[0;31m",
   :new => "\e[0;33m",
   :ren => "\e[0;34m",
   :cpy => "\e[0;33m",
